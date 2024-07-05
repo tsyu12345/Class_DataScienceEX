@@ -10,8 +10,13 @@
 -e file:.
 asttokens==2.4.1
     # via stack-data
+certifi==2024.7.4
+    # via requests
+charset-normalizer==3.3.2
+    # via requests
 colorama==0.4.6
     # via ipython
+    # via tqdm
 comm==0.2.2
     # via ipykernel
 contourpy==1.2.1
@@ -26,6 +31,8 @@ executing==2.0.1
     # via stack-data
 fonttools==4.51.0
     # via matplotlib
+idna==3.7
+    # via requests
 ipykernel==6.29.4
     # via class-datascienceex
 ipython==8.23.0
@@ -48,7 +55,10 @@ lxml==5.2.1
 matplotlib==3.8.4
     # via class-datascienceex
     # via japanize-matplotlib
+    # via matplotlib-fontja
     # via seaborn
+matplotlib-fontja==1.0.0
+    # via class-datascienceex
 matplotlib-inline==0.1.6
     # via ipykernel
     # via ipython
@@ -95,6 +105,8 @@ pywin32==306
 pyzmq==25.1.2
     # via ipykernel
     # via jupyter-client
+requests==2.32.3
+    # via class-datascienceex
 scikit-learn==1.4.2
     # via class-datascienceex
 scipy==1.13.0
@@ -111,6 +123,8 @@ threadpoolctl==3.4.0
 tornado==6.4
     # via ipykernel
     # via jupyter-client
+tqdm==4.66.4
+    # via class-datascienceex
 traitlets==5.14.2
     # via comm
     # via ipykernel
@@ -120,5 +134,7 @@ traitlets==5.14.2
     # via matplotlib-inline
 tzdata==2024.1
     # via pandas
+urllib3==2.2.2
+    # via requests
 wcwidth==0.2.13
     # via prompt-toolkit

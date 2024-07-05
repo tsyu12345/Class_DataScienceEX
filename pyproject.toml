@@ -14,6 +14,9 @@ dependencies = [
     "japanize_matplotlib>=1.1.3",
     "lxml>=5.2.1",
     "seaborn>=0.13.2",
+    "matplotlib-fontja>=1.0.0",
+    "tqdm>=4.66.4",
+    "requests>=2.32.3",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -27,7 +30,9 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = []
+dev-dependencies = [
+    "setuptools>=70.2.0",
+]
 
 [tool.hatch.metadata]
 allow-direct-references = true
